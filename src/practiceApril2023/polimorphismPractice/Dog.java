@@ -1,0 +1,12 @@
+package practiceApril2023.polimorphismPractice;
+
+public class Dog extends Animal{
+    @Override
+    public void makeSound(){
+        System.out.println("Woof");
+    }
+
+    public void fetch(){
+        System.out.println("fetch is fun!");
+    }
+}
